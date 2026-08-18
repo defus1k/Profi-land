@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProfiLand</title>
+    <link rel="stylesheet" href="sdtyle.css">
+</head>
+
+<body>
+
+    <div class="ocean">
+        <div class="header-container">
+            <h1 class="main-title">ProfiLand</h1>
+            <p class="subtitle">Натисніть на острів для перегляду</p>
+        </div>
+
+        <div class="archipelago">
+
+            <!-- СТО -->
+            <div class="island-wrapper" onclick="openMap(
+            'image/island-67.png',
+            ['video/sto1.mp4','video/sto111.mp4','video/sto123.mp4'],
+            ['Слюсар з ремонту колісних транспортних засобів; електрозварник ручного зварювання — (на базі 9 класів)','Слюсар з ремонту колісних транспортних засобів; водій автотранспортних засобів категорія «В», «С» (на базі 9 класів)','Майстер з діагностики та налагодження електронного устаткування автомобільних засобів (на базі 9 класів)'],
+            [
+    { top: '5%', left: '50%', transform: 'translateX(-50%)' },
+    { top: '65%', left: '15%' },
+    { top: '65%', left: '70%' }
+],
+            'ТРАНСПОРТ ТА ТЕХНІЧНІ ПРОФЕСІЇ'
+        )">
+                <span class="island-label">Транспорт та технічні професії</span>
+                <img src="image/island-67.png" class="island-img">
+            </div>
+
+            <!-- ЕЛЕКТРОНІКА -->
+            <div class="island-wrapper" onclick="openMap(
+            'image/island-elec.png',
+            ['video/el123.mp4','video/radio.mp4','video/el3.mp4'],
+            ['Електроніка, електронні комунікації, приладобудування та радіотехніка — (фаховий молодший бакалавр)','Адміністратор програм радіо та телебачення — (на базі 9 класів)','Оператор електронно-комунікаційних послуг — (на базі 9 класів)'],
+            [
+    { top: '4%', left: '50%', transform: 'translateX(-50%)' },
+    { top: '55%', left: '15%' },
+    { top: '55%', left: '72%' }
+],
+            'МЕДІА ТА КОМУНІКАЦІЇ'
+        )">
+                <span class="island-label">Медіа та комунікації</span>
+                <img src="image/island-elec.png" class="island-img">
+            </div>
+
+            <!-- IT -->
+            <div class="island-wrapper" onclick="openMap(
+            'image/manager-3.png',
+            ['video/it22.mp4','video/it3.mp4','video/it1.mp4'],
+           ['Комп\'ютерні науки (фаховий молодший бакалавр)',
+ 'Оператор з обробки інформації та програмного забезпечення — (на базі 9 класів.)',
+ 'Оператор з обробки інформації та ПЗ з посиленною військовою та фізичною підготовкою — (на базі 9 класів)'],
+            [
+    { top: '10%', left: '50%', transform: 'translateX(-50%)' },
+    { top: '70%', left: '18%' },
+    { top: '70%', left: '70%' }
+], 
+            'ІНФОРМАЦІЙНІ ТЕХНОЛОГІЇ'
+        )">
+                <span class="island-label">Інформаційні технології</span>
+                <img src="image/manager-3.png" class="island-img">
+                
+            </div>
+
+            <!-- КОЛЕДЖ -->
+            <div class="island-wrapper" onclick="openMap(
+            'image/manager.png',
+            ['video/adm1.mp4','video/comm1.mp4','video/com321.mp4'],
+            ['Офіс-адміністратор — (на базі 11 класів) ','Секретарська та офісна справа — (фаховий молодший бакалавр)','Адміністратор, секретар керівника організації, підприємства, установи — (На базі 9 класів)'],
+            [
+    { top: '10%', left: '50%', transform: 'translateX(-50%)' },
+    { top: '65%', left: '20%' },
+    { top: '65%', left: '65%' }
+],
+            'УПРАВЛІННЯ ТА ОФІСНА СПРАВА'
+        )">
+                <span class="island-label">Управління та офісна справа </span>
+                <img src="image/manager.png" class="island-img">
+            </div>
+
+            <!-- ВІЙСЬКО -->
+            <div class="island-wrapper" onclick="openMap(
+            'image/island-22.png',
+            ['video/mil1.mp4'],
+            ['Військова підготовка'],
+            [
+    { top: '8%', left: '50%', transform: 'translateX(-50%)' },
+    { top: '65%', left: '20%' },
+    { top: '65%', left: '90%' }
+],
+            'Військова підготовка'
+        )">
+                <span class="island-label">Військова підготовка</span>
+                <img src="image/island-22.png" class="island-img">
+            </div>
+
+            <!-- ДРОНИ (исправлено) -->
+            <div class="island-wrapper" onclick="openMap(
+            'image/island-dros.png',
+            ['video/dr1.mp4','video/dr2.mp4','video/dr3.mp4'],
+            ['Оператор дистанційно керованих апаратів — (на базі 9 класів)'],
+            [
+    { top: '8%', left: '48%', transform: 'translateX(-50%)' }
+],
+            'СУЧАСНІ ТЕХНОЛОГІЇ ТА РОБОТОТЕХНІКА'
+        )">
+                <span class="island-label">Сучасні технології та робототехніка</span>
+                <img src="image/island-dros.png" class="island-img">
+            </div>
+
+            <!-- ЕНЕРГІЯ -->
+            <div class="island-wrapper" onclick="openMap(
+            'image/island-66.png',
+            ['video/en1.mp4','video/en2.mp4','video/en3.mp4'],
+            ['Майстер з монтажу та обслуговування систем відновлювальної енергетики — (на базі 9 класів)'],
+            [
+    { top: '5%', left: '50%', transform: 'translateX(-50%)' }
+],
+            'ЧИСТА ЕНЕРГІЯ'
+        )">
+                <span class="island-label">Чиста енергія</span>
+                <img src="image/island-66.png" class="island-img">
+            </div>
+
+            <div class="island-wrapper">
+                <img src="image/qr2.png" class="island-imq">
+            </div>
+
+        </div>
+    </div>
+
+    <!-- МОДАЛКА -->
+    <div id="map-overlay" class="map-overlay" onclick="closeMap(event)">
+        <div class="modal-content">
+
+            <!-- ДОБАВЛЕНО -->
+            <h2 id="modal-title" class="modal-title"></h2>
+
+            <button class="close-btn" onclick="closeMapExplicit()">
+                КАРТА
+            </button>
+
+            <img id="modal-island-img">
+            <video id="island-video" controls style="display:none;"></video>
+
+            <div class="island-objects-menu"></div>
+        </div>
+    </div>
+    <script>
+        let currentVideos = [];
+
+        function openMap(imgSrc, videos, labels, positions = [], title = '') {
+
+            const overlay = document.getElementById('map-overlay');
+            const modalImg = document.getElementById('modal-island-img');
+            const video = document.getElementById('island-video');
+            const menu = document.querySelector('.island-objects-menu');
+            const modalTitle = document.getElementById('modal-title');
+
+            modalTitle.innerText = title;
+
+            modalImg.src = imgSrc;
+            modalImg.style.display = 'block';
+
+            video.style.display = 'none';
+            video.pause();
+
+            menu.classList.remove('hidden'); 
+
+            overlay.classList.add('active');
+
+            currentVideos = videos;
+            menu.innerHTML = '';
+
+            labels.forEach((label, index) => {
+                const btn = document.createElement('button');
+                btn.classList.add('obj-btn');
+                const parts = label.split(' — ');
+
+                btn.innerHTML = `
+    <span class="main-text">${parts[0]}</span>
+    ${parts[1] ? `<span class="sub-text">${parts[1]}</span>` : ''}
+`;
+                btn.onclick = () => playVideo(index);
+
+                if (positions[index]) {
+                    btn.style.top = positions[index].top;
+                    btn.style.left = positions[index].left;
+                    btn.style.transform = positions[index].transform || '';
+                }
+
+                menu.appendChild(btn);
+            });
+        }
+
+        function playVideo(index) {
+            const video = document.getElementById('island-video');
+            const modalImg = document.getElementById('modal-island-img');
+            const menu = document.querySelector('.island-objects-menu');
+
+            modalImg.style.display = 'none';
+            menu.classList.add('hidden');
+
+            video.src = currentVideos[index];
+            video.style.display = 'block';
+            video.load();
+            video.play();
+        }
+
+        function closeMapExplicit() {
+            const overlay = document.getElementById('map-overlay');
+            const video = document.getElementById('island-video');
+            const menu = document.querySelector('.island-objects-menu');
+
+            overlay.classList.remove('active');
+            video.pause();
+
+            menu.classList.remove('hidden'); 
+        }
+
+        function closeMap(e) {
+            if (e.target.id === 'map-overlay') closeMapExplicit();
+        }
+
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') closeMapExplicit();
+        });
+
+
+        function openGallery(event) {
+            event.stopPropagation();
+
+            document.getElementById('gallery-overlay')
+                .classList.add('active');
+        }
+
+        function closeGallery(event) {
+            if (event.target.id === 'gallery-overlay') {
+                closeGalleryExplicit();
+            }
+        }
+
+        function closeGalleryExplicit() {
+            document.getElementById('gallery-overlay')
+                .classList.remove('active');
+        }
+
+        function openImage(src) {
+
+            const viewer = document.getElementById('image-viewer');
+            const img = document.getElementById('viewer-img');
+
+            img.src = src;
+
+            viewer.classList.add('active');
+        }
+
+        function closeImage() {
+            document.getElementById('image-viewer')
+                .classList.remove('active');
+        }
+
+
+    </script>
+</body>
+
+</html>
